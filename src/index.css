@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #050608;
+  --color-text: #FFFFFF;
+  --color-text-secondary: #9CA3AF;
+  --color-surface: #111418;
+  --color-primary: #CCFF00;
+  --color-success: #CCFF00;
+  --color-danger: #FF3333;
+}
+
+body {
+  @apply bg-background text-text-primary antialiased selection:bg-primary selection:text-black;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Glassmorphism Utilities - Professional */
+.glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/5 shadow-md;
+}
+
+.glass-card {
+  @apply glass rounded-lg p-6 hover:bg-white/10 transition-all duration-300 border border-slate-800/50;
+  background-color: rgba(15, 23, 42, 0.3);
+}
+
+.glass-input {
+  @apply w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-text-primary placeholder-text-secondary focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all;
+}
+
+.glass-button {
+  @apply px-6 py-3 rounded-xl font-medium transition-all duration-300 transform active:scale-95;
+}
+
+.btn-primary {
+  @apply glass-button bg-primary hover:bg-primary-hover shadow-[0_0_20px_rgba(204_255_0_0.3)] text-black font-bold border border-primary/20;
+}
+
+.btn-secondary {
+  @apply glass-button bg-white/10 hover:bg-white/20 text-text-primary border border-white/10;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface rounded-full hover:bg-text-secondary;
+}
+
+/* Auth Specifics */
+.auth-input-field {
+  @apply glass-input;
+}
+
+.auth-button {
+  @apply btn-primary w-full;
+}

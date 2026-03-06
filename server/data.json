@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "createdAt": 1766393286430
+  },
+  "users": [
+    {
+      "id": "u_614266ae54ce85e4e514e9adf95627ca",
+      "email": null,
+      "name": "Guest 1012",
+      "isGuest": true,
+      "passwordSalt": null,
+      "passwordHash": null,
+      "createdAt": 1766393292236,
+      "lastLoginAt": 1766393292236
+    },
+    {
+      "id": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "email": null,
+      "name": "Guest 3134",
+      "isGuest": true,
+      "passwordSalt": null,
+      "passwordHash": null,
+      "createdAt": 1766393597030,
+      "lastLoginAt": 1766393597030
+    },
+    {
+      "id": "u_6d4f4aac72c790d50c76d76e2110b84d",
+      "email": null,
+      "name": "Guest 5859",
+      "isGuest": true,
+      "passwordSalt": null,
+      "passwordHash": null,
+      "createdAt": 1766394801064,
+      "lastLoginAt": 1766394801064
+    },
+    {
+      "id": "u_d21e408266acc55e5a09c43f343d5c73",
+      "email": null,
+      "name": "Guest 5963",
+      "isGuest": true,
+      "passwordSalt": null,
+      "passwordHash": null,
+      "createdAt": 1766395728578,
+      "lastLoginAt": 1766395728578
+    }
+  ],
+  "sessions": [
+    {
+      "id": "s_8e63285c7735f71e030538f9af99b9d3",
+      "token": "sess_c558456098b20ba25073b6af8153e19b",
+      "userId": "u_d21e408266acc55e5a09c43f343d5c73",
+      "createdAt": 1766395728578,
+      "expiresAt": 1768987728578
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_ce8903af38901353eb062838ce767284",
+      "userId": "u_614266ae54ce85e4e514e9adf95627ca",
+      "type": "income",
+      "amount": 800000,
+      "description": "Freelance Project Payment",
+      "category": "salary",
+      "date": 1766220517181,
+      "tags": [
+        "freelance"
+      ],
+      "createdAt": 1766393317181
+    },
+    {
+      "id": "tx_dae1a249b60277e533d9c600653a801d",
+      "userId": "u_614266ae54ce85e4e514e9adf95627ca",
+      "type": "expense",
+      "amount": 250000,
+      "description": "Office Rent",
+      "category": "housing",
+      "date": 1766134117181,
+      "tags": [
+        "rent"
+      ],
+      "createdAt": 1766393317181
+    },
+    {
+      "id": "tx_e9a7c10751fe49cd23869afadc3a8359",
+      "userId": "u_614266ae54ce85e4e514e9adf95627ca",
+      "type": "expense",
+      "amount": 45000,
+      "description": "Software Subscription",
+      "category": "software",
+      "date": 1765961317181,
+      "tags": [
+        "subscription"
+      ],
+      "createdAt": 1766393317181
+    },
+    {
+      "id": "tx_55115346b12d7715afd25abd5ba620f1",
+      "userId": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "type": "income",
+      "amount": 800000,
+      "description": "Freelance Project Payment",
+      "category": "salary",
+      "date": 1766221035680,
+      "tags": [
+        "freelance"
+      ],
+      "createdAt": 1766393835680
+    },
+    {
+      "id": "tx_37f99ff39dfb0b514baa6f346b62fc34",
+      "userId": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "type": "expense",
+      "amount": 250000,
+      "description": "Office Rent",
+      "category": "housing",
+      "date": 1766134635680,
+      "tags": [
+        "rent"
+      ],
+      "createdAt": 1766393835680
+    },
+    {
+      "id": "tx_e851ec4dccfba92a0c8352726f2e44c3",
+      "userId": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "type": "expense",
+      "amount": 45000,
+      "description": "Software Subscription",
+      "category": "software",
+      "date": 1765961835680,
+      "tags": [
+        "subscription"
+      ],
+      "createdAt": 1766393835680
+    },
+    {
+      "id": "tx_975ba2585a7bf26e29b1a48f2a2b9596",
+      "userId": "u_6d4f4aac72c790d50c76d76e2110b84d",
+      "type": "income",
+      "amount": 800000,
+      "description": "Freelance Project Payment",
+      "category": "salary",
+      "date": 1766222087673,
+      "tags": [
+        "freelance"
+      ],
+      "createdAt": 1766394887673
+    },
+    {
+      "id": "tx_0da2ccf3696dfdaf10fae22cae7cac68",
+      "userId": "u_6d4f4aac72c790d50c76d76e2110b84d",
+      "type": "expense",
+      "amount": 250000,
+      "description": "Office Rent",
+      "category": "housing",
+      "date": 1766135687673,
+      "tags": [
+        "rent"
+      ],
+      "createdAt": 1766394887673
+    },
+    {
+      "id": "tx_268fe5b0ceb2ea32711ef690d5364bea",
+      "userId": "u_6d4f4aac72c790d50c76d76e2110b84d",
+      "type": "expense",
+      "amount": 45000,
+      "description": "Software Subscription",
+      "category": "software",
+      "date": 1765962887673,
+      "tags": [
+        "subscription"
+      ],
+      "createdAt": 1766394887673
+    },
+    {
+      "id": "tx_b8a7db888340007cd575c61531ec27d1",
+      "userId": "u_d21e408266acc55e5a09c43f343d5c73",
+      "type": "income",
+      "amount": 800000,
+      "description": "Freelance Project Payment",
+      "category": "salary",
+      "date": 1766222928606,
+      "tags": [
+        "freelance"
+      ],
+      "createdAt": 1766395728606
+    },
+    {
+      "id": "tx_9c63fadb20c5770d0fa75905a6aabbbc",
+      "userId": "u_d21e408266acc55e5a09c43f343d5c73",
+      "type": "expense",
+      "amount": 250000,
+      "description": "Office Rent",
+      "category": "housing",
+      "date": 1766136528606,
+      "tags": [
+        "rent"
+      ],
+      "createdAt": 1766395728606
+    },
+    {
+      "id": "tx_a2580c50b5bc1620df9e384b8f61d3e4",
+      "userId": "u_d21e408266acc55e5a09c43f343d5c73",
+      "type": "expense",
+      "amount": 45000,
+      "description": "Software Subscription",
+      "category": "software",
+      "date": 1765963728606,
+      "tags": [
+        "subscription"
+      ],
+      "createdAt": 1766395728606
+    }
+  ],
+  "goals": [
+    {
+      "id": "g_828130a51d39c11bd335a1613272cf49",
+      "userId": "u_614266ae54ce85e4e514e9adf95627ca",
+      "name": "Emergency Fund",
+      "targetAmount": 1000000,
+      "currentAmount": 750000,
+      "targetDate": 1774169317181,
+      "category": "savings",
+      "priority": "high",
+      "isActive": true,
+      "createdAt": 1766393317181
+    },
+    {
+      "id": "g_0631710584b3493ff6af67ee8df18e4e",
+      "userId": "u_614266ae54ce85e4e514e9adf95627ca",
+      "name": "New Laptop",
+      "targetAmount": 150000,
+      "currentAmount": 50000,
+      "targetDate": 1768985317181,
+      "category": "purchase",
+      "priority": "medium",
+      "isActive": true,
+      "createdAt": 1766393317181
+    },
+    {
+      "id": "g_0e8206c305dd8948b64e7dde7d6a9ef1",
+      "userId": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "name": "Emergency Fund",
+      "targetAmount": 1000000,
+      "currentAmount": 750000,
+      "targetDate": 1774169835680,
+      "category": "savings",
+      "priority": "high",
+      "isActive": true,
+      "createdAt": 1766393835680
+    },
+    {
+      "id": "g_6d01008718deb5f8c5d6f6e8a47c144a",
+      "userId": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "name": "New Laptop",
+      "targetAmount": 150000,
+      "currentAmount": 50000,
+      "targetDate": 1768985835680,
+      "category": "purchase",
+      "priority": "medium",
+      "isActive": true,
+      "createdAt": 1766393835680
+    },
+    {
+      "id": "g_f4470cf252f54c754e7e8b35ede00e82",
+      "userId": "u_6d4f4aac72c790d50c76d76e2110b84d",
+      "name": "Emergency Fund",
+      "targetAmount": 1000000,
+      "currentAmount": 850000,
+      "targetDate": 1774170887673,
+      "category": "savings",
+      "priority": "high",
+      "isActive": true,
+      "createdAt": 1766394887673
+    },
+    {
+      "id": "g_38ffb43129a27f5d56aa2a5a20c15d40",
+      "userId": "u_6d4f4aac72c790d50c76d76e2110b84d",
+      "name": "New Laptop",
+      "targetAmount": 150000,
+      "currentAmount": 50000,
+      "targetDate": 1768986887673,
+      "category": "purchase",
+      "priority": "medium",
+      "isActive": true,
+      "createdAt": 1766394887673
+    },
+    {
+      "id": "g_2f08855836f0d7e5a35c5210baf5e458",
+      "userId": "u_d21e408266acc55e5a09c43f343d5c73",
+      "name": "Emergency Fund",
+      "targetAmount": 1000000,
+      "currentAmount": 750000,
+      "targetDate": 1774171728606,
+      "category": "savings",
+      "priority": "high",
+      "isActive": true,
+      "createdAt": 1766395728606
+    },
+    {
+      "id": "g_28a3c7f5e7d8820b90e3cc888df98a29",
+      "userId": "u_d21e408266acc55e5a09c43f343d5c73",
+      "name": "New Laptop",
+      "targetAmount": 150000,
+      "currentAmount": 50000,
+      "targetDate": 1768987728606,
+      "category": "purchase",
+      "priority": "medium",
+      "isActive": true,
+      "createdAt": 1766395728606
+    }
+  ],
+  "simulations": [
+    {
+      "id": "sim_04810c0fed0b4b8b32149d4d8e3d69a7",
+      "userId": "u_3871be8c5b95608ba8e1fe0c90c6fbfb",
+      "createdAt": 1766394557608,
+      "changes": [
+        {
+          "id": "c_a1d40f0b8b7bfaf9c525379d4d3cad89",
+          "type": "income",
+          "category": "marketing",
+          "amount": 80000
+        }
+      ],
+      "results": {
+        "originalRunway": 73,
+        "newRunway": 76,
+        "impact": "+3 days",
+        "projectedBalance": 4330000
+      }
+    }
+  ]
+}
